@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="src/frontEnd/indexCSS.css">
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+</head>
+<body>
+    <img src="src/frontEnd/images/title.png" class="center"><br>
+    <!--Get Player's Name-->
+    <div id="player name">
+        <form>
+            Enter Your Name: <input type="text" id="ign">
+            <input type="submit" value="Enter">
+        </form>
+    </div>
+    <!--Welcome-->
+    <div id="welcome">
+        Welcome, Player! <br>
+    </div>
+    <!-- flip-to-top or flip-to-bottom -->
+    <div class="cube flip-to-top" onclick="window.location.href='game.html'">
+        <div class="default-state">
+            <span>Ready To Play?</span>
+        </div>
+        <div class="active-state">
+            <span>Start!</span>
+        </div>
+    </div>
+    <!--Instruction-->
+    <div>
+        <button>How To Play</button>
+        <button>Creators</button>
+    </div>
+</body>
+</html>
